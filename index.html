@@ -1,40 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafetería</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto:300&display=swap" rel="stylesheet">
+    <title>Cafe Agere</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!---Estilo-->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto:300,400&display=swap" rel="stylesheet">
-<style>
-    body {
-    margin: 0;
-    padding: 0;
-}
-    nav {
-        background-color: aqua;
-        width: 100%;
-        height: 96px;
-    }
-    .nav__logo {
-        width: 29px;
-        padding-left: 74px;
-        padding-top: 28px;
-    }
-    
-</style>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
+
 <body>
+    <!---Navbar-->
     <nav>
-        <img class="nav__logo" src="assets/images/logo.png" alt="logo cafeteria">
+        <div class="navegador">
+            <img class="logo-principal" src="assets/img/logo.png" alt="logo-cafe">
+            <ul>
+                <li class="about">Acerca de</li>
+                <li class="tienda">Tienda</li>
+            </ul>
+            <div class="botones">
+                <button class="botones__inicio">Iniciar sesión</button>
+                <button class="botones__registro">Registrarte</button>
+            </div>
+        </div>
     </nav>
-    <header>
 
-    </header>
-    <section>
+    <section class="cafeteria">
+        <img class="cafeteria__interior-cafe" src="assets/img/img-1.png" alt="foto-cafe">
 
-    </section>      
-    
+        <div class="titulo">
+            <h1 class="titulo__Cafe">Café
+                <br>
+                Aguere</h1>
+            <p class="titulo__texto-cafe">Coffe Shop</p>
+        </div>
+    </section>
+
+    <section class="box-cafe">
+        <div class="box__variedades">
+            <h2>+50</h2>
+            <p>Variedades de
+                <br>
+                café</p>
+        </div>
+
+        <div class="box__paises">
+            <h2>20</h2>
+            <p>Países
+                <br>
+                diferentes</p>
+        </div>
+
+        <div class="box__accesorios">
+            <h2>+1000</h2>
+            <p>
+                Accesorios para
+                <br>
+                hacer el mejor café
+            </p>
+        </div>
+
+        <div class="yellow-box">Caja amarilla</div>
+        <div class="orange-box"><i class="flecha fas fa-arrow-right fa-4x"></i></div>
+    </section>
+
+    <section class="lugar">
+        <div class="lugar__texto col-sm-4">
+            <h2>Ven a conocernos</h2>
+            <p>Disfruta de una gran experiencia tomando un café o un té dentro de nuestra tienda o si quieres puedes
+                comprar en línea nuestros cafés para disfrutarlos en casa.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="caja">
+            <img class="caja__mapa" src="assets/img/img-4.png" alt="ubicación">
+            <img class="caja__cafe" src="assets/img/img-2.jpg" alt="cafe-listo">
+        </div>
+        <div class="blue-box"></div>
+        <img class="caja__granos" src="assets/img/img-3.jpg" alt="granos-cafe">
+    </section>
+
 </body>
-</html
+
+</html>
