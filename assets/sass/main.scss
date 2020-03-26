@@ -1,27 +1,21 @@
-@import 'vendors/bootstrap';
+@import
+  'vendors/bootstrap-4.3.1/bootstrap';
 
-@import 'abstracts/variables';
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
-@import 'abstracts/placeholders';
+@import
+  'abstracts/variables',
+  'abstracts/mixin';
 
-@import 'base/reset';
-@import 'base/typography';
+@import
+  'base/reset',
+  'base/base',
+  'base/typography';
 
-@import 'layout/navigation';
-@import 'layout/grid';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/sidebar';
-@import 'layout/forms';
-
-@import 'components/buttons';
-@import 'components/carousel';
-@import 'components/cover';
-@import 'components/dropdown';
-
-@import 'pages/home';
-@import 'pages/contact';
-
-@import 'themes/theme';
-@import 'themes/admin';
+@import
+  'layout/section',
+  'layout/navbar',
+  'layout/footer';
+  
+@import
+  'components/input',
+  'components/buttons';
+  
