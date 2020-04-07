@@ -6,28 +6,39 @@
     display: inline-flex;
     background-color: $white;
     position: absolute;
-    right: 29%;
-    top: 350px;
-    z-index: 0;
-    margin-top: 5%;
-    left: 35%;
+    height: 180px;
+    width: 500px;
+    top: 400px;
+    left: 400px;
 }
 
 .box__variedades{
-    padding: 20px;
+    font-family: $mono;
+    font-size: 40px;
+    padding: 30px;
 }
 
 .box__paises{
-    padding: 20px;
+    font-family: $mono;
+    font-size: 40px;
+    padding: 30px;
 }
 
 .box__accesorios{
-    padding: 20px;
+    font-family: $mono;
+    font-size: 40px;
+    padding: 30px;
 }
 
 .lugar{
+    font-family: $mono;
+    font-size: 30px;
     margin-top: 5%;
     margin-left: 3%;
+    width: 350px;
+    &__texto {
+    padding-right: 5%;
+    }
 }
 
 .yellow-box{
@@ -50,10 +61,6 @@
 .flecha{
     color: $white;
     margin: 35px;
-}
-
-.lugar__texto{
-    padding-right: 5%;
 }
 
 .caja__mapa{
