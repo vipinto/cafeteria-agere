@@ -1,14 +1,17 @@
+.navegador {
+    display: inline-flex;
+}
 .logo-principal{
     width: 3%;
     margin-right: 5%;
     margin-left: 3%;
+    padding-top: 20px;
 }
 
 ul{
-    font-family: $Mono;
-    padding-bottom: 30px;
+    font-family: $mono;
     list-style: none;
-    display: inline-flex;
+    
     color: $quick-silver;
 }
 
