@@ -1,0 +1,22 @@
+.botones{
+    display: inline-block;
+    padding-left: 500px;
+}
+.botones__inicio{
+font-family: $Mono;
+margin: 15px 20px 0px 54px;
+color: $quick-silver;
+background-color: $white;
+padding: 5px;
+font-size: 14px;
+border-color: $spanish-gray;
+}
+
+.botones__registro{
+font-family: $Mono;
+margin: 15px 0px;
+color: $white;
+background-color: $shiny-shamrock;
+padding: 5px;
+font-size: 14px;
+}

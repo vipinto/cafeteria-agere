@@ -1,0 +1,91 @@
+.titulo{
+    float: right;
+}
+
+.box-cafe{
+    display: inline-flex;
+    background-color: $white;
+    position: absolute;
+    right: 29%;
+    top: 350px;
+    z-index: 0;
+    margin-top: 5%;
+    left: 35%;
+}
+
+.box__variedades{
+    padding: 20px;
+}
+
+.box__paises{
+    padding: 20px;
+}
+
+.box__accesorios{
+    padding: 20px;
+}
+
+.lugar{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.yellow-box{
+    background-color: $buff;
+    position: absolute;
+    left: 100%;
+    width: 28%;
+    height: 86%;
+}
+
+.orange-box{
+    background-color: $flame;
+    position: absolute;
+    left: 93%;
+    width: 30%;
+    height: 87%;
+    top: -13%;
+}
+
+.flecha{
+    color: $white;
+    margin: 35px;
+}
+
+.lugar__texto{
+    padding-right: 5%;
+}
+
+.caja__mapa{
+    width: 33%;
+    left: 33%;
+    top: 578px;
+    z-index: 1;
+    position: absolute;
+}
+
+.caja__granos{
+    position: absolute;
+    left: 880px;
+    top: 546px;
+    width: 90px;
+    z-index: 2;
+}
+
+.caja__cafe {
+    position: absolute;
+    left: 899px;
+    top: 546px;
+    z-index: 1;
+}
+
+
+.blue-box{
+    background-color: $blue-de-france;
+    position: absolute;
+    height: 224px;
+    width: 589px;
+    left: 450px;
+    top: 546px;
+    z-index: 0;
+}
